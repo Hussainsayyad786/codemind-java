@@ -1,14 +1,19 @@
 import java.util.Scanner;
 public class main{
-public static void main(String[] args){
-    Scanner sc=new Scanner(System.in);
-    int x=sc.nextInt();
-    if(x%4!=0){
-        System.out.println(x/4+1);
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        //int b=sc.nextInt();
+        //int c=sc.nextInt();
+        int r;
+        if(a%4!=0){
+            System.out.println(a/4+1);
+        }
+        else{
+            
+            System.out.println(a/4);
+        }
+       // System.out.println(a+b+c-r);
+      
     }
-    else{
-        System.out.println(x/4);
-    }
-    
-  }
 }
